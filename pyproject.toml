@@ -1,0 +1,11 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "This project includes data ingestion from MongoDB, Data validation, model evaluation and pushing to AWSS3, Building ML app using FastAPI with Complete CICD on AWS"
+authors = [{name="Shashank Kurakula",email="shashankkurakula5@gmail.com"}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
